@@ -1,0 +1,7 @@
+<suite name = "FirstMavenProject">
+	<test name = "FirstMavenProject">
+		<classes>
+			<class name = "FirstMavenProject.GoogleTest"></class>
+		</classes>
+	</test>
+</suite>
