@@ -1,5 +1,6 @@
 package FirstMavenProject;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -14,7 +15,7 @@ public class GoogleTest {
        
       System.out.println("launching chrome browser"); 
       System.setProperty("webdriver.chrome.driver", driverPath);
-      driver = new FirefoxDriver();
+      driver = new ChromeDriver();
       driver.get(baseUrl);
       //String expectedTitle = "Welcome: Google";
       //String actualTitle = driver.getTitle();
