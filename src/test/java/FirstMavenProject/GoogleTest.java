@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 
 public class GoogleTest {
     public String baseUrl = "http:www.google.com";
-    String driverPath = "c:\\eclipse-workspace\\FirstMavenProject\\src\\main\\resources\\chromedriver.exe";
+    String driverPath = "c:\\Jenkins\\workspace\\FirstMavenProject\\src\\main\\resources\\chromedriver.exe";
     public WebDriver driver ; 
      
   @Test
